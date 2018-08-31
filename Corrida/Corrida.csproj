@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{27284E0B-8C45-4AA0-9295-D582AD62B636}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Corrida</RootNamespace>
+    <AssemblyName>Turbo Race</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>1406872232_172465.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FormAposta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAposta.Designer.cs">
+      <DependentUpon>FormAposta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormJogo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormJogo.Designer.cs">
+      <DependentUpon>FormJogo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormNomeJogadores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormNomeJogadores.Designer.cs">
+      <DependentUpon>FormNomeJogadores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormVencedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormVencedor.Designer.cs">
+      <DependentUpon>FormVencedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormAposta.resx">
+      <DependentUpon>FormAposta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormJogo.resx">
+      <DependentUpon>FormJogo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormNomeJogadores.resx">
+      <DependentUpon>FormNomeJogadores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormVencedor.resx">
+      <DependentUpon>FormVencedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Carro1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Carro2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Carro3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Carro4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Carro5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Quadro.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Countdown.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Num1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Num2.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Num3.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GO.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Menu1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Menu2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Carro1_Preto.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Carro2_Preto.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Carro3_Preto.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Carro4_Preto.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Carro5_Preto.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GanhouCarro1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GanhouCarro2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GanhouCarro3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GanhouCarro4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GanhouCarro5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sair.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bjogar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bnovo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BSair.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fechar.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NovoJogo.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\burn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\skidmark.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\smoove.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\turbo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\whiplash.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\whiteShadow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\burn-preto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\skidmark-preto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\smoove-preto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\turbo-preto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\whiplash-preto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\whiteShadow-preto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ganhou1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ganhou2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ganhou3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ganhou4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ganhou5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="1406872232_172465.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,11 @@
+G:\IFSP\Tecnologo\4º-MOD\PRS\Trabalho Final\Turbo Race\Corrida\bin\Debug\Turbo Race.exe
+G:\IFSP\Tecnologo\4º-MOD\PRS\Trabalho Final\Turbo Race\Corrida\bin\Debug\Turbo Race.pdb
+G:\IFSP\Tecnologo\4º-MOD\PRS\Trabalho Final\Turbo Race\Corrida\obj\x86\Debug\Corrida.csprojResolveAssemblyReference.cache
+G:\IFSP\Tecnologo\4º-MOD\PRS\Trabalho Final\Turbo Race\Corrida\obj\x86\Debug\Corrida.FormAposta.resources
+G:\IFSP\Tecnologo\4º-MOD\PRS\Trabalho Final\Turbo Race\Corrida\obj\x86\Debug\Corrida.FormJogo.resources
+G:\IFSP\Tecnologo\4º-MOD\PRS\Trabalho Final\Turbo Race\Corrida\obj\x86\Debug\Corrida.FormNomeJogadores.resources
+G:\IFSP\Tecnologo\4º-MOD\PRS\Trabalho Final\Turbo Race\Corrida\obj\x86\Debug\Corrida.FormVencedor.resources
+G:\IFSP\Tecnologo\4º-MOD\PRS\Trabalho Final\Turbo Race\Corrida\obj\x86\Debug\Corrida.Properties.Resources.resources
+G:\IFSP\Tecnologo\4º-MOD\PRS\Trabalho Final\Turbo Race\Corrida\obj\x86\Debug\Corrida.csproj.GenerateResource.Cache
+G:\IFSP\Tecnologo\4º-MOD\PRS\Trabalho Final\Turbo Race\Corrida\obj\x86\Debug\Turbo Race.exe
+G:\IFSP\Tecnologo\4º-MOD\PRS\Trabalho Final\Turbo Race\Corrida\obj\x86\Debug\Turbo Race.pdb
